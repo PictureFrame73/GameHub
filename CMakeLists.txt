@@ -11,6 +11,8 @@ qt_add_executable(GameHub
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    gamedata.h gamedata.cpp
+
 )
 
 target_link_libraries(GameHub
